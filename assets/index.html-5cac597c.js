@@ -1,0 +1,1 @@
+import{_ as t,r as n,o,c,d as r}from"./app-eb665f75.js";const s={};function _(a,l){const e=n("Meting");return o(),c("div",null,[r(e,{server:"netease",type:"playlist",mid:"411997722","lrc-type":3})])}const d=t(s,[["render",_],["__file","index.html.vue"]]);export{d as default};

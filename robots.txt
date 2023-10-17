@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: https://steven-kz.github.io/KBlogsPro/KBlogsPro/sitemap.xml

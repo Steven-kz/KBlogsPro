@@ -1,0 +1,2 @@
+import{_ as r,o as t,c as s,a as e,b as a}from"./app-eb665f75.js";const o={},c=e("h2",{id:"美女福利",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#美女福利","aria-hidden":"true"},"#"),a(" 美女福利")],-1),n=e("iframe",{id:"iframe",height:"500px",width:"100%",frameborder:"0",scrolling:"yes",allowfullscreen:"true",seamless:"1",src:"/KBlogsPro/html/welfare.html"},`  
+ `,-1),l=[c,n];function i(d,_){return t(),s("div",null,l)}const f=r(o,[["render",i],["__file","index.html.vue"]]);export{f as default};

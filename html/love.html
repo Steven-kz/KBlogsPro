@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>背景音乐播放页面</title>
+</head>
+
+<body>
+<button class="md" id="playButton">背景音乐</button>
+</body>
+<style>
+
+    .md {
+        padding: 10px 20px;
+        background-color: #000000;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        border-radius: 50px; /* 圆形按钮 */
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4); /* 添加阴影效果 */
+        outline: none; /* 移除默认的点击边框样式 */
+
+        /* 添加过渡效果，使按钮具有动态感 */
+        transition: transform 0.3s ease;
+    }
+
+    .md {
+        float: right;
+    }
+
+
+    .md:hover {
+        transform: scale(1.1); /* 鼠标悬停时按钮放大变换 */
+    }
+</style>
+<script>
+    window.addEventListener('load', function() {
+        var audio = new Audio('/KBlogsPro/music/love.mp3');
+        audio.loop = true;
+
+        // 点击按钮时播放音乐
+        document.getElementById('playButton').addEventListener('click', function() {
+            audio.play().catch(function(error) {
+                alert(error);
+            });
+        });
+    });
+</script>
+
+</html>
